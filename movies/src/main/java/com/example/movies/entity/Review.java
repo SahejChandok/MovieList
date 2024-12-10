@@ -1,4 +1,4 @@
-package com.example.movies.controller;
+package com.example.movies.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -16,4 +16,24 @@ public class Review {
     private ObjectId id;
 
     private String body;
+
+    public Review(String body) {
+        this.body = body;
+    }
+
+    public ObjectId getId() {
+        return id;
+    }
+
+    public void setId(ObjectId id) {
+        this.id = id;
+    }
+
+    public String getBody() {
+        return body;
+    }
+
+    public void setBody(String body) {
+        this.body = body;
+    }
 }

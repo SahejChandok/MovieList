@@ -1,4 +1,4 @@
-package com.example.movies.controller;
+package com.example.movies.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
