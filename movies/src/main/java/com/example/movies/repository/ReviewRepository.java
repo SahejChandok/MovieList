@@ -1,10 +1,11 @@
-package com.example.movies.controller;
+package com.example.movies.repository;
 
+import com.example.movies.entity.Review;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface MovieRepository extends MongoRepository<Movie, ObjectId> {
+public interface ReviewRepository extends MongoRepository<Review, ObjectId>{
 
 }
